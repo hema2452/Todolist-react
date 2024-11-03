@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+   
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(17, 16, 16, 0.813);
+    width:100vw;
+    height:100vh;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.form-input{
+    color:white;
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px; 
+}
+.form-item{
+    background-color: rgb(255, 255, 255);
+    border:none;
+    outline:0;
+    border-radius: 5px;
+    width:700px;
+    height:40px;
+    margin:5px;
+    cursor:pointer
+
+}
+
+.list-heading{
+    color:rgb(255, 253, 255);
+    text-align: center;
+    margin:10px;
+}
+
+.list{
+    list-style: none;
+    color:white;
+}
+
+.checkbox-input{
+    width:50px;
+    
+}
+
+.delete-button{
+    border:none;
+    outline:0;
+    width:100px;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    background-color: rgb(74, 74, 179);
+    color:white;
+    cursor:pointer;
+}
+
